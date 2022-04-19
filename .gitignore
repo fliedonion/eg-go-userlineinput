@@ -1,14 +1,14 @@
-
 # allow minimum to ignore binary create by `go build`
 /*
+!/*/
+
+!/go.mod
+!/go.sum
+
 !/LICENSE
 !/.gitignore
 !/.gitattributes
 !/README.md
-
-# go mod
-!/go.mod
-!/go.sum
 
 # build script
 !/Makefile
@@ -16,25 +16,15 @@
 !/*.bat
 !/*.sh
 
-# src, test src, dest(folder only)
-!/src/
-!/test/
+## src, test src, dest(folder only)
 !/dest/
 /dest/*
 !/dest/.gitkeep
 
 
-!/testdata/
-
-
 # project oriented
-/_reference-htdigest-files/
-/htdigest.exe
-/htdigest
-/htdigest.c
-/*.digest
-/*.htdigest
-!/test*.digest
+
+
 
 # windows / mac 
 .DS_Store

@@ -1,1 +1,1 @@
-@SET _mainsrc=src\cmd\eg-userinput\eg-userinput-go.go
+@SET _mainsrc=cmd\eg-userinput\eg-userinput-go.go
